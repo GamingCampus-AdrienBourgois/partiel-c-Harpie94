@@ -7,7 +7,7 @@
 float Solution1::ConvertTemperature(float _value, TemperatureUnits _from, TemperatureUnits _to)
 {
     if (_from == _to)
-        return _value;
+        return _value; //Return nothing if the "to" unit is the same as "from", for example Celcius to Celcius
 
             switch (_from)
             {
